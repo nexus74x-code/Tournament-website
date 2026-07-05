@@ -1,0 +1,1179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="NEXUS BATTLEGROUND — India's premier esports tournament platform for Free Fire, BGMI, and Valorant. Compete. Dominate. Claim your glory." />
+  <meta name="keywords" content="esports, tournament, Free Fire, BGMI, Valorant, gaming, India, online tournament" />
+  <meta property="og:title" content="NEXUS BATTLEGROUND — Esports Tournament Platform" />
+  <meta property="og:description" content="Compete in Free Fire, BGMI, and Valorant tournaments. Register your squad today." />
+  <meta property="og:type" content="website" />
+  <title>NEXUS BATTLEGROUND — Esports Tournament Platform</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google Fonts loaded in CSS via @import -->
+</head>
+<body>
+
+  <!-- ── Background Effects ── -->
+  <div class="grid-bg" aria-hidden="true"></div>
+  <div class="orb orb-1" aria-hidden="true"></div>
+  <div class="orb orb-2" aria-hidden="true"></div>
+
+  <!-- ============================================================
+       NAVBAR
+       ============================================================ -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner container">
+
+      <!-- Logo -->
+      <a href="#home" class="nav-logo" aria-label="Nexus Battleground — Home">
+        <div class="nav-logo-icon" aria-hidden="true">⚡</div>
+        <span><span class="logo-nx">NEXUS</span> BG</span>
+      </a>
+
+      <!-- Desktop Links -->
+      <div class="nav-links" role="list">
+        <a href="#home" role="listitem">Home</a>
+        <a href="#games" role="listitem">Games</a>
+        <a href="#tournaments" role="listitem">Tournaments</a>
+        <a href="#leaderboard" role="listitem">Leaderboard</a>
+        <a href="#rules" role="listitem">Rules</a>
+        <a href="#register" role="listitem">Register</a>
+        <a href="#contact" role="listitem">Contact</a>
+        <a href="#register" class="btn btn-primary nav-cta" id="navRegisterBtn">Register Now</a>
+      </div>
+
+      <!-- Hamburger (mobile) -->
+      <button class="nav-hamburger" id="navHamburger" aria-label="Toggle mobile menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="nav-mobile" id="navMobile" aria-hidden="true">
+      <a href="#home" data-section="home">🏠 Home</a>
+      <a href="#games" data-section="games">🎮 Games</a>
+      <a href="#tournaments" data-section="tournaments">🏆 Tournaments</a>
+      <a href="#leaderboard" data-section="leaderboard">📊 Leaderboard</a>
+      <a href="#rules" data-section="rules">📋 Rules</a>
+      <a href="#faq" data-section="faq">❓ FAQ</a>
+      <a href="#contact" data-section="contact">📬 Contact</a>
+      <a href="#register" class="btn btn-primary" id="mobileRegisterBtn">⚡ Register Now</a>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO SECTION
+       ============================================================ -->
+  <section id="home" aria-labelledby="heroTitle">
+
+    <!-- Background layers -->
+    <div class="hero-bg-image" aria-hidden="true"></div>
+    <div class="hero-bg-overlay" aria-hidden="true"></div>
+
+    <!-- THE BOLD CREATIVE RISK: Diagonal neon energy slash -->
+    <div class="hero-slash" aria-hidden="true"></div>
+
+    <!-- Corner brackets — UI design flavor -->
+    <div class="hero-bracket hero-bracket-tl" aria-hidden="true"></div>
+    <div class="hero-bracket hero-bracket-br" aria-hidden="true"></div>
+
+    <div class="container">
+      <div class="hero-content">
+
+        <!-- Live badge -->
+        <div class="hero-badge" aria-label="Registrations now open">
+          <span class="hero-badge-dot" aria-hidden="true"></span>
+          Season 03 — Registrations Open
+        </div>
+
+        <!-- Main Headline -->
+        <h1 class="hero-title" id="heroTitle">
+          <span class="line-accent">DOMINATE</span>
+          <span class="line-main">THE</span>
+          <span class="line-main">BATTLEFIELD<span class="cursor-blink" aria-hidden="true"></span></span>
+        </h1>
+
+        <p class="hero-tagline">
+          India's most intense esports tournament platform for
+          <strong>Free Fire, BGMI &amp; Valorant</strong>.
+          Register your squad, prove your worth, and claim glory.
+        </p>
+
+        <div class="hero-cta-row">
+          <a href="#register" class="btn btn-primary" id="heroRegisterBtn">
+            <span aria-hidden="true">⚡</span> Register Your Squad
+          </a>
+          <a href="#games" class="btn btn-secondary" id="heroViewGamesBtn">
+            View Games
+          </a>
+        </div>
+
+        <!-- Quick Stats -->
+        <div class="hero-stats" aria-label="Tournament statistics">
+          <div class="hero-stat">
+            <div class="hero-stat-value">
+              <span data-count="2400" data-suffix="">0</span><span>+</span>
+            </div>
+            <div class="hero-stat-label">Players Registered</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-value">
+              ₹<span data-count="150000" data-suffix="">0</span><span>+</span>
+            </div>
+            <div class="hero-stat-label">Prize Pool</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-value">
+              <span data-count="48" data-suffix="">0</span><span>+</span>
+            </div>
+            <div class="hero-stat-label">Teams Per Season</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-value">
+              <span data-count="3" data-suffix="">0</span>
+            </div>
+            <div class="hero-stat-label">Games Hosted</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator" aria-hidden="true">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <div class="neon-divider" aria-hidden="true"></div>
+
+  <!-- ============================================================
+       GAMES SECTION
+       ============================================================ -->
+  <section id="games" aria-labelledby="gamesHeading">
+    <div class="container">
+
+      <div class="reveal">
+        <div class="section-label">Our Games</div>
+        <h2 class="section-heading" id="gamesHeading">
+          Choose Your <span>Arena</span>
+        </h2>
+        <p class="section-sub">Three titles. Three formats. One platform built for champions.</p>
+      </div>
+
+      <div class="games-grid">
+
+        <!-- Free Fire Card -->
+        <article class="game-card reveal reveal-delay-1" data-target="ff" role="button" tabindex="0" aria-label="Free Fire — click to view tournament details">
+          <div class="game-card-img-wrap">
+            <img src="assets/images/freefire_card.png" alt="Free Fire — battle royale game art" class="game-card-img" loading="lazy" />
+            <div class="game-tag ff">Battle Royale</div>
+          </div>
+          <div class="game-card-body">
+            <h3 class="game-card-name">Free Fire</h3>
+            <p class="game-card-desc">48-player survival showdown. Squad up, outlast everyone, and walk out as the last team standing on Bermuda.</p>
+            <div class="game-card-footer">
+              <div class="prize-tag">
+                ₹50,000
+                <small>prize pool</small>
+              </div>
+              <button class="btn btn-ghost" style="font-size:0.8rem; padding:8px 16px;">View Details →</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- BGMI Card -->
+        <article class="game-card reveal reveal-delay-2" data-target="bgmi" role="button" tabindex="0" aria-label="BGMI — click to view tournament details">
+          <div class="game-card-img-wrap">
+            <img src="assets/images/bgmi_card.png" alt="BGMI — squad tactical warfare game art" class="game-card-img" loading="lazy" />
+            <div class="game-tag bgmi">Squad Tactical</div>
+          </div>
+          <div class="game-card-body">
+            <h3 class="game-card-name">BGMI</h3>
+            <p class="game-card-desc">Full squad tactical warfare across Erangel and Miramar. Outsmart, outmaneuver, and outshoot the competition.</p>
+            <div class="game-card-footer">
+              <div class="prize-tag">
+                ₹75,000
+                <small>prize pool</small>
+              </div>
+              <button class="btn btn-ghost" style="font-size:0.8rem; padding:8px 16px;">View Details →</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Valorant Card -->
+        <article class="game-card reveal reveal-delay-3" data-target="valo" role="button" tabindex="0" aria-label="Valorant — click to view tournament details">
+          <div class="game-card-img-wrap">
+            <img src="assets/images/valorant_card.png" alt="Valorant — tactical shooter agent art" class="game-card-img" loading="lazy" />
+            <div class="game-tag valo">Tactical FPS</div>
+          </div>
+          <div class="game-card-body">
+            <h3 class="game-card-name">Valorant</h3>
+            <p class="game-card-desc">5v5 agent-based tactical gunplay. Precision, teamwork, and split-second decisions separate legends from the rest.</p>
+            <div class="game-card-footer">
+              <div class="prize-tag">
+                ₹25,000
+                <small>prize pool</small>
+              </div>
+              <button class="btn btn-ghost" style="font-size:0.8rem; padding:8px 16px;">View Details →</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="neon-divider" aria-hidden="true"></div>
+
+  <!-- ============================================================
+       TOURNAMENT DETAILS SECTION
+       ============================================================ -->
+  <section id="tournaments" aria-labelledby="tournamentsHeading">
+    <div class="container">
+
+      <div class="reveal">
+        <div class="section-label">Tournament Details</div>
+        <h2 class="section-heading" id="tournamentsHeading">
+          Know the <span>Format</span>
+        </h2>
+        <p class="section-sub">Full details for each game — formats, prize breakdowns, maps, and rules summary.</p>
+      </div>
+
+      <!-- Tabs -->
+      <div class="tournament-tabs reveal" role="tablist" aria-label="Select game tournament">
+        <button class="tab-btn active" data-tab="ff" role="tab" aria-selected="true" aria-controls="panel-ff" id="tab-ff">🔥 Free Fire</button>
+        <button class="tab-btn" data-tab="bgmi" role="tab" aria-selected="false" aria-controls="panel-bgmi" id="tab-bgmi">🟢 BGMI</button>
+        <button class="tab-btn" data-tab="valo" role="tab" aria-selected="false" aria-controls="panel-valo" id="tab-valo">🔴 Valorant</button>
+      </div>
+
+      <!-- ── FREE FIRE PANEL ── -->
+      <div id="panel-ff" class="tournament-panel active" role="tabpanel" aria-labelledby="tab-ff">
+        <div class="tournament-layout reveal">
+
+          <!-- Details card -->
+          <div class="t-card">
+            <div class="t-card-title">Tournament Info</div>
+            <div class="t-detail-row">
+              <span class="t-detail-key">Game</span>
+              <span class="t-detail-val">Free Fire MAX</span>
+            </div>
+            <div class="t-detail-row">
+              <span class="t-detail-key">Format</span>
+              <span class="t-detail-val">Squad (4 Players)</span>
+            </div>
+            <div class="t-detail-row">
+              <span class="t-detail-key">Date</span>
+              <!-- EDIT: Replace with actual date -->
+              <span class="t-detail-val highlight">TBA — Check Discord</span>
+            </div>
+            <div class="t-detail-row">
+              <span class="t-detail-key">Map</span>
+              <span class="t-detail-val">Bermuda / Kalahari</span>
+            </div>
+            <div class="t-detail-row">
+              <span class="t-detail-key">Mode</span>
+              <span class="t-detail-val">Battle Royale (Custom Room)</span>
+            </div>
+            <div class="t-detail-row">
+              <span class="t-detail-key">Entry Fee</span>
+              <span class="t-detail-val highlight">FREE</span>
+            </div>
+            <div class="t-detail-row">
+              <span class="t-detail-key">Total Teams</span>
+              <span class="t-detail-val">12 Squads Max</span>
+            </div>
+            <div class="t-detail-row">
+              <span class="t-detail-key">Prize Pool</span>
+              <span class="t-detail-val prize">₹50,000</span>
+            </div>
+            <div class="t-detail-row">
+              <span class="t-detail-key">Room ID/PW Time</span>
+              <span class="t-detail-val">30 mins before match</span>
+            </div>
+          </div>
+
+          <!-- Rules summary card -->
+          <div>
+            <div class="t-card" style="margin-bottom:20px;">
+              <div class="t-card-title">Prize Breakdown</div>
+              <div class="t-detail-row">
+                <span class="t-detail-key">🥇 1st Place</span>
+                <span class="t-detail-val prize">₹25,000</span>
+              </div>
+              <div class="t-detail-row">
+                <span class="t-detail-key">🥈 2nd Place</span>
+                <span class="t-detail-val">₹15,000</span>
+              </div>
+              <div class="t-detail-row">
+                <span class="t-detail-key">🥉 3rd Place</span>
+                <span class="t-detail-val">₹7,000</span>
+              </div>
+              <div class="t-detail-row">
+                <span class="t-detail-key">🎯 Most Kills</span>
+                <span class="t-detail-val">₹3,000</span>
+              </div>
+            </div>
+            <div class="t-card">
+              <div class="t-card-title">Quick Rules</div>
+              <ul class="rules-list">
+                <li>Custom room — all teams must join via provided ID &amp; password</li>
+                <li>Squad of exactly 4; no subs mid-match unless approved</li>
+                <li>Points: Placement (15/12/10/8/6/4/2/1) + 1 per kill</li>
+                <li>Emulators strictly prohibited — mobile only</li>
+                <li>In-game UID required at registration for verification</li>
+                <li>Teaming, hacking, or exploits = instant DQ</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ── BGMI PANEL ── -->
+      <div id="panel-bgmi" class="tournament-panel" role="tabpanel" aria-labelledby="tab-bgmi">
+        <div class="tournament-layout reveal">
+
+          <div class="t-card">
+            <div class="t-card-title">Tournament Info</div>
+            <div class="t-detail-row">
+              <span class="t-detail-key">Game</span>
+              <span class="t-detail-val">BGMI (Battlegrounds Mobile India)</span>
+            </div>
+            <div class="t-detail-row">
+              <span class="t-detail-key">Format</span>
+              <span class="t-detail-val">Squad (4 Players)</span>
+            </div>
+            <div class="t-detail-row">
+              <span class="t-detail-key">Date</span>
+              <span class="t-detail-val highlight">TBA — Check Discord</span>
+            </div>
+            <div class="t-detail-row">
+              <span class="t-detail-key">Map Rotation</span>
+              <span class="t-detail-val">Erangel → Miramar → Sanhok</span>
+            </div>
+            <div class="t-detail-row">
+              <span class="t-detail-key">Mode</span>
+              <span class="t-detail-val">Classic (Custom Room)</span>
+            </div>
+            <div class="t-detail-row">
+              <span class="t-detail-key">Entry Fee</span>
+              <!-- EDIT: Change if paid entry -->
+              <span class="t-detail-val highlight">FREE</span>
+            </div>
+            <div class="t-detail-row">
+              <span class="t-detail-key">Total Teams</span>
+              <span class="t-detail-val">16 Squads Max</span>
+            </div>
+            <div class="t-detail-row">
+              <span class="t-detail-key">Prize Pool</span>
+              <span class="t-detail-val prize">₹75,000</span>
+            </div>
+            <div class="t-detail-row">
+              <span class="t-detail-key">Room ID/PW Time</span>
+              <span class="t-detail-val">30 mins before match</span>
+            </div>
+          </div>
+
+          <div>
+            <div class="t-card" style="margin-bottom:20px;">
+              <div class="t-card-title">Prize Breakdown</div>
+              <div class="t-detail-row">
+                <span class="t-detail-key">🥇 1st Place</span>
+                <span class="t-detail-val prize">₹35,000</span>
+              </div>
+              <div class="t-detail-row">
+                <span class="t-detail-key">🥈 2nd Place</span>
+                <span class="t-detail-val">₹20,000</span>
+              </div>
+              <div class="t-detail-row">
+                <span class="t-detail-key">🥉 3rd Place</span>
+                <span class="t-detail-val">₹12,000</span>
+              </div>
+              <div class="t-detail-row">
+                <span class="t-detail-key">🎯 Most Kills</span>
+                <span class="t-detail-val">₹8,000</span>
+              </div>
+            </div>
+            <div class="t-card">
+              <div class="t-card-title">Quick Rules</div>
+              <ul class="rules-list">
+                <li>3 matches played; cumulative points decide winner</li>
+                <li>BGMI in-game ID and screenshot required at registration</li>
+                <li>Placement system: 1st=10, 2nd=6, 3rd=5 … + 1 per kill</li>
+                <li>Emulators and third-party tools strictly banned</li>
+                <li>Lobby must be joined 5 minutes before scheduled start</li>
+                <li>Any team with connection issues must rejoin before circle</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ── VALORANT PANEL ── -->
+      <div id="panel-valo" class="tournament-panel" role="tabpanel" aria-labelledby="tab-valo">
+        <div class="tournament-layout reveal">
+
+          <div class="t-card">
+            <div class="t-card-title">Tournament Info</div>
+            <div class="t-detail-row">
+              <span class="t-detail-key">Game</span>
+              <span class="t-detail-val">Valorant (PC)</span>
+            </div>
+            <div class="t-detail-row">
+              <span class="t-detail-key">Format</span>
+              <span class="t-detail-val">5v5 Single Elimination</span>
+            </div>
+            <div class="t-detail-row">
+              <span class="t-detail-key">Date</span>
+              <span class="t-detail-val highlight">TBA — Check Discord</span>
+            </div>
+            <div class="t-detail-row">
+              <span class="t-detail-key">Map Pool</span>
+              <span class="t-detail-val">Ascent, Bind, Icebox</span>
+            </div>
+            <div class="t-detail-row">
+              <span class="t-detail-key">Mode</span>
+              <span class="t-detail-val">Custom Tournament Lobby</span>
+            </div>
+            <div class="t-detail-row">
+              <span class="t-detail-key">Entry Fee</span>
+              <span class="t-detail-val highlight">FREE</span>
+            </div>
+            <div class="t-detail-row">
+              <span class="t-detail-key">Total Teams</span>
+              <span class="t-detail-val">8 Teams Max</span>
+            </div>
+            <div class="t-detail-row">
+              <span class="t-detail-key">Prize Pool</span>
+              <span class="t-detail-val prize">₹25,000</span>
+            </div>
+            <div class="t-detail-row">
+              <span class="t-detail-key">Lobby Invite Time</span>
+              <span class="t-detail-val">20 mins before match</span>
+            </div>
+          </div>
+
+          <div>
+            <div class="t-card" style="margin-bottom:20px;">
+              <div class="t-card-title">Prize Breakdown</div>
+              <div class="t-detail-row">
+                <span class="t-detail-key">🥇 1st Place</span>
+                <span class="t-detail-val prize">₹15,000</span>
+              </div>
+              <div class="t-detail-row">
+                <span class="t-detail-key">🥈 2nd Place</span>
+                <span class="t-detail-val">₹7,000</span>
+              </div>
+              <div class="t-detail-row">
+                <span class="t-detail-key">🥉 3rd Place</span>
+                <span class="t-detail-val">₹3,000</span>
+              </div>
+            </div>
+            <div class="t-card">
+              <div class="t-card-title">Quick Rules</div>
+              <ul class="rules-list">
+                <li>Best of 1 until finals; Grand Final is Best of 3</li>
+                <li>Riot ID (in-game name + tag) required at registration</li>
+                <li>Map selection: higher seed bans first; remaining played</li>
+                <li>No stand-ins allowed; roster lock after registration closes</li>
+                <li>Coaching or any overlay assistance tools are banned</li>
+                <li>Team captain must be in the Nexus BG Discord during match</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="neon-divider" aria-hidden="true"></div>
+
+  <!-- ============================================================
+       REGISTRATION SECTION
+       ============================================================ -->
+  <section id="register" aria-labelledby="registerHeading">
+    <div class="container">
+
+      <div class="reveal">
+        <div class="section-label">Join the Fight</div>
+        <h2 class="section-heading" id="registerHeading">
+          Register Your <span>Squad</span>
+        </h2>
+        <p class="section-sub">Follow these steps and hit the registration button for your game. It takes less than 2 minutes.</p>
+      </div>
+
+      <!-- Steps -->
+      <div class="reg-steps reveal" style="position:relative;" aria-label="Registration steps">
+
+        <div class="reg-step reveal-delay-1">
+          <div class="reg-step-num" aria-hidden="true">1</div>
+          <div class="reg-step-title">Join Discord</div>
+          <div class="reg-step-desc">Join our official Discord server to get updates, Room IDs, and support from admins.</div>
+        </div>
+
+        <div class="reg-step reveal-delay-2">
+          <div class="reg-step-num" aria-hidden="true">2</div>
+          <div class="reg-step-title">Fill the Form</div>
+          <div class="reg-step-desc">Click the Register button for your game below and fill in all squad details accurately.</div>
+        </div>
+
+        <div class="reg-step reveal-delay-3">
+          <div class="reg-step-num" aria-hidden="true">3</div>
+          <div class="reg-step-title">Verify Entry</div>
+          <div class="reg-step-desc">Our team verifies your registration within 24 hours and confirms your slot via Discord DM.</div>
+        </div>
+
+        <div class="reg-step reveal-delay-4">
+          <div class="reg-step-num" aria-hidden="true">4</div>
+          <div class="reg-step-title">Game Day</div>
+          <div class="reg-step-desc">Room ID &amp; password are shared 30 minutes before match time. Be ready and join on time!</div>
+        </div>
+
+      </div>
+
+      <!-- Registration Cards -->
+      <div class="reg-cards">
+
+        <!-- Free Fire -->
+        <div class="reg-card reveal reveal-delay-1">
+          <div class="reg-card-icon" aria-hidden="true">🔥</div>
+          <div class="reg-card-game">Free Fire</div>
+          <div class="reg-card-detail">
+            <strong>Format:</strong> Squad (4 players)<br />
+            <strong>Prize Pool:</strong> ₹50,000<br />
+            <strong>Entry Fee:</strong> FREE<br />
+            <strong>Slots:</strong> 12 Squads (limited!)<br /><br />
+            Registration closes 24 hrs before the tournament. Provide your squad's in-game UIDs on the form.
+          </div>
+          <!-- EDIT: Replace PLACEHOLDER-FF with actual Google Form ID -->
+          <a
+            href="https://forms.gle/PLACEHOLDER-FF"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary"
+            id="registerFFBtn"
+            aria-label="Register for Free Fire tournament (opens Google Form)"
+          >
+            <span aria-hidden="true">🔥</span> Register for Free Fire
+          </a>
+        </div>
+
+        <!-- BGMI -->
+        <div class="reg-card reveal reveal-delay-2">
+          <div class="reg-card-icon" aria-hidden="true">🟢</div>
+          <div class="reg-card-game">BGMI</div>
+          <div class="reg-card-detail">
+            <strong>Format:</strong> Squad (4 players)<br />
+            <strong>Prize Pool:</strong> ₹75,000<br />
+            <strong>Entry Fee:</strong> FREE<br />
+            <strong>Slots:</strong> 16 Squads (limited!)<br /><br />
+            Provide all 4 squad members' BGMI IDs. Registration closes 24 hrs before match day.
+          </div>
+          <!-- EDIT: Replace PLACEHOLDER-BGMI with actual Google Form ID -->
+          <a
+            href="https://forms.gle/PLACEHOLDER-BGMI"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary"
+            id="registerBGMIBtn"
+            aria-label="Register for BGMI tournament (opens Google Form)"
+          >
+            <span aria-hidden="true">🟢</span> Register for BGMI
+          </a>
+        </div>
+
+        <!-- Valorant -->
+        <div class="reg-card reveal reveal-delay-3">
+          <div class="reg-card-icon" aria-hidden="true">⚔️</div>
+          <div class="reg-card-game">Valorant</div>
+          <div class="reg-card-detail">
+            <strong>Format:</strong> 5v5 Single Elimination<br />
+            <strong>Prize Pool:</strong> ₹25,000<br />
+            <strong>Entry Fee:</strong> FREE<br />
+            <strong>Slots:</strong> 8 Teams (limited!)<br /><br />
+            Provide all 5 Riot IDs. A coach/IGL (6th person) can be listed optionally.
+          </div>
+          <!-- EDIT: Replace PLACEHOLDER-VALO with actual Google Form ID -->
+          <a
+            href="https://forms.gle/PLACEHOLDER-VALO"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary"
+            id="registerValoBtn"
+            aria-label="Register for Valorant tournament (opens Google Form)"
+          >
+            <span aria-hidden="true">⚔️</span> Register for Valorant
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <div class="neon-divider" aria-hidden="true"></div>
+
+  <!-- ============================================================
+       RULES & GUIDELINES SECTION
+       ============================================================ -->
+  <section id="rules" aria-labelledby="rulesHeading">
+    <div class="container">
+
+      <div class="reveal">
+        <div class="section-label">Fair Play First</div>
+        <h2 class="section-heading" id="rulesHeading">
+          Rules &amp; <span>Guidelines</span>
+        </h2>
+        <p class="section-sub">We run zero-tolerance, fair-play tournaments. Know the rules before you register.</p>
+      </div>
+
+      <div class="rules-layout">
+
+        <!-- Left column — core rules -->
+        <div class="accordion reveal" aria-label="Tournament rules accordion">
+
+          <div class="accordion-item open">
+            <button class="accordion-trigger" aria-expanded="true">
+              <span class="accordion-trigger-text">⚡ Fair Play &amp; Anti-Cheat Policy</span>
+              <span class="accordion-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-body">
+              <div class="accordion-content">
+                <p>All players must compete on legitimate, unmodified game clients. Any form of cheating results in immediate disqualification and a permanent ban from all future Nexus BG events.</p>
+                <ul>
+                  <li>No aimbots, wallhacks, or lag-switch tools</li>
+                  <li>No macros or scripting tools (for Valorant PC)</li>
+                  <li>Emulators strictly prohibited in mobile tournaments</li>
+                  <li>Screen-sharing may be required if suspected</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false">
+              <span class="accordion-trigger-text">🪪 ID Verification</span>
+              <span class="accordion-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-body">
+              <div class="accordion-content">
+                <p>All registered players must provide accurate in-game IDs. Mismatch between form data and in-game name may result in disqualification.</p>
+                <ul>
+                  <li>Free Fire: In-game UID (numeric)</li>
+                  <li>BGMI: Player ID (numeric) visible in-game</li>
+                  <li>Valorant: Full Riot ID including tag (#XXXX)</li>
+                  <li>Admin reserves the right to request profile screenshots</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false">
+              <span class="accordion-trigger-text">⏰ Punctuality &amp; Room Access</span>
+              <span class="accordion-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-body">
+              <div class="accordion-content">
+                <p>Room ID and password are shared exclusively in our Discord server 30 minutes before match start. Late entries forfeit their slot.</p>
+                <ul>
+                  <li>All players must join the custom room within 5 minutes of sharing</li>
+                  <li>No replacements after lobby is locked</li>
+                  <li>Match starts on time — late teams are auto-eliminated</li>
+                  <li>Valorant lobby invites sent 20 mins before scheduled time</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false">
+              <span class="accordion-trigger-text">🚫 Disqualification Criteria</span>
+              <span class="accordion-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-body">
+              <div class="accordion-content">
+                <p>The following will result in immediate disqualification without appeal:</p>
+                <ul>
+                  <li>Use of any cheat software or modified client</li>
+                  <li>Teaming with other squads (in BR formats)</li>
+                  <li>Toxic, abusive behavior toward other participants or admins</li>
+                  <li>Sharing Room ID/password with non-registered players</li>
+                  <li>No-show without prior notice 24 hrs in advance</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right column — additional rules -->
+        <div class="accordion reveal reveal-delay-2" aria-label="Additional guidelines accordion">
+
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false">
+              <span class="accordion-trigger-text">🏆 Scoring System</span>
+              <span class="accordion-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-body">
+              <div class="accordion-content">
+                <p><strong>Battle Royale (FF / BGMI):</strong></p>
+                <ul>
+                  <li>1st: 15 pts | 2nd: 12 pts | 3rd: 10 pts</li>
+                  <li>4th–6th: 8 pts | 7th–10th: 4 pts</li>
+                  <li>+1 point per elimination (kill)</li>
+                  <li>Tie-break: higher kills → earlier finish rank</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false">
+              <span class="accordion-trigger-text">📢 Result Announcements</span>
+              <span class="accordion-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-body">
+              <div class="accordion-content">
+                <p>Results are announced within 2 hours of the final match via:</p>
+                <ul>
+                  <li>Official Discord #results channel</li>
+                  <li>Instagram story (top 3 only)</li>
+                  <li>Winners contacted via Discord DM within 24 hrs</li>
+                  <li>Prize distribution within 3–5 business days</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false">
+              <span class="accordion-trigger-text">💸 Prize Distribution</span>
+              <span class="accordion-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-body">
+              <div class="accordion-content">
+                <p>All prizes are distributed via UPI / bank transfer to the team captain's verified account.</p>
+                <ul>
+                  <li>Team captain must provide valid UPI ID or account details</li>
+                  <li>Prize will not be distributed if ID verification fails</li>
+                  <li>TDS may apply as per Indian IT laws for prizes above ₹10,000</li>
+                  <li>Disputes must be raised within 12 hours of result announcement</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false">
+              <span class="accordion-trigger-text">🎙️ Admin Decisions</span>
+              <span class="accordion-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-body">
+              <div class="accordion-content">
+                <p>The Nexus BG admin team has final authority on all in-tournament disputes. Admin decisions are binding and final once announced.</p>
+                <ul>
+                  <li>Disputes must be submitted in the #support channel</li>
+                  <li>Video/screenshot evidence is required for any claim</li>
+                  <li>Harassment of admins results in immediate ban</li>
+                  <li>Nexus BG reserves the right to modify formats if required</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="neon-divider" aria-hidden="true"></div>
+
+  <!-- ============================================================
+       LEADERBOARD / PAST WINNERS
+       ============================================================ -->
+  <section id="leaderboard" aria-labelledby="leaderboardHeading">
+    <div class="container">
+
+      <div class="leaderboard-header reveal">
+        <div>
+          <div class="section-label">Hall of Fame</div>
+          <h2 class="section-heading" id="leaderboardHeading">
+            Past <span>Champions</span>
+          </h2>
+          <p class="section-sub">Season 02 results — who rose above the rest?</p>
+        </div>
+
+        <!-- Game filter tabs -->
+        <div class="leaderboard-tabs" role="tablist" aria-label="Leaderboard game filter">
+          <button class="lb-tab active" data-lb="ff" role="tab">Free Fire</button>
+          <button class="lb-tab" data-lb="bgmi" role="tab">BGMI</button>
+          <button class="lb-tab" data-lb="valo" role="tab">Valorant</button>
+        </div>
+      </div>
+
+      <!-- ── FREE FIRE LEADERBOARD ── -->
+      <div id="lb-ff">
+
+        <!-- Podium top 3 -->
+        <div class="podium reveal" aria-label="Top 3 Free Fire teams">
+
+          <!-- 2nd place -->
+          <div class="podium-card" aria-label="2nd place team">
+            <div class="podium-rank" aria-hidden="true">#2</div>
+            <div class="podium-avatar" aria-hidden="true">🐺</div>
+            <div class="podium-name">ShadowFang FF</div>
+            <div class="podium-tag">Team Tag: SFANG</div>
+            <div class="podium-points">284 <span>PTS</span></div>
+          </div>
+
+          <!-- 1st place — champion -->
+          <div class="podium-card champion" aria-label="1st place — champion team">
+            <div class="podium-rank" aria-hidden="true">#1</div>
+            <div class="podium-avatar" aria-hidden="true">👑</div>
+            <div class="podium-name">BLAZE SQUAD</div>
+            <div class="podium-tag">Team Tag: BLZ4</div>
+            <div class="podium-points">341 <span>PTS</span></div>
+          </div>
+
+          <!-- 3rd place -->
+          <div class="podium-card" aria-label="3rd place team">
+            <div class="podium-rank" aria-hidden="true">#3</div>
+            <div class="podium-avatar" aria-hidden="true">🦅</div>
+            <div class="podium-name">Iron Condor</div>
+            <div class="podium-tag">Team Tag: IC07</div>
+            <div class="podium-points">261 <span>PTS</span></div>
+          </div>
+
+        </div>
+
+        <!-- Rankings table -->
+        <table class="lb-table reveal" aria-label="Free Fire leaderboard table">
+          <thead>
+            <tr>
+              <th scope="col">Rank</th>
+              <th scope="col">Squad Name</th>
+              <th scope="col">Kills</th>
+              <th scope="col">Placements</th>
+              <th scope="col">Total Points</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td class="rank-cell">#4</td><td class="team-name">Phantom Wolves</td><td>38</td><td>2nd, 4th, 5th</td><td class="points-cell">240</td></tr>
+            <tr><td class="rank-cell">#5</td><td class="team-name">Ghost Protocol</td><td>31</td><td>4th, 3rd, 7th</td><td class="points-cell">218</td></tr>
+            <tr><td class="rank-cell">#6</td><td class="team-name">Dark Matter</td><td>29</td><td>5th, 6th, 2nd</td><td class="points-cell">199</td></tr>
+            <tr><td class="rank-cell">#7</td><td class="team-name">Nova Strike</td><td>25</td><td>6th, 8th, 4th</td><td class="points-cell">177</td></tr>
+            <tr><td class="rank-cell">#8</td><td class="team-name">Crimson Edge</td><td>22</td><td>7th, 5th, 9th</td><td class="points-cell">154</td></tr>
+          </tbody>
+        </table>
+
+      </div>
+
+      <!-- ── BGMI LEADERBOARD ── -->
+      <div id="lb-bgmi" style="display:none;">
+        <div class="podium reveal">
+          <div class="podium-card">
+            <div class="podium-rank">#2</div>
+            <div class="podium-avatar">🐯</div>
+            <div class="podium-name">Alpha Squad</div>
+            <div class="podium-tag">Team Tag: ALPH</div>
+            <div class="podium-points">312 <span>PTS</span></div>
+          </div>
+          <div class="podium-card champion">
+            <div class="podium-rank">#1</div>
+            <div class="podium-avatar">👑</div>
+            <div class="podium-name">OMEGA FORCE</div>
+            <div class="podium-tag">Team Tag: OMF1</div>
+            <div class="podium-points">398 <span>PTS</span></div>
+          </div>
+          <div class="podium-card">
+            <div class="podium-rank">#3</div>
+            <div class="podium-avatar">🦁</div>
+            <div class="podium-name">Steel Panthers</div>
+            <div class="podium-tag">Team Tag: STP4</div>
+            <div class="podium-points">289 <span>PTS</span></div>
+          </div>
+        </div>
+        <table class="lb-table reveal">
+          <thead>
+            <tr><th>Rank</th><th>Squad Name</th><th>Kills</th><th>Placements</th><th>Total Points</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="rank-cell">#4</td><td class="team-name">Vortex Gaming</td><td>44</td><td>2nd, 3rd, 4th</td><td class="points-cell">268</td></tr>
+            <tr><td class="rank-cell">#5</td><td class="team-name">Neon Hunters</td><td>38</td><td>3rd, 5th, 2nd</td><td class="points-cell">244</td></tr>
+            <tr><td class="rank-cell">#6</td><td class="team-name">RavenClaw</td><td>32</td><td>6th, 4th, 5th</td><td class="points-cell">211</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- ── VALORANT LEADERBOARD ── -->
+      <div id="lb-valo" style="display:none;">
+        <div class="podium reveal">
+          <div class="podium-card">
+            <div class="podium-rank">#2</div>
+            <div class="podium-avatar">🎯</div>
+            <div class="podium-name">Precision X</div>
+            <div class="podium-tag">Team Tag: PREX</div>
+            <div class="podium-points">W/L: 4-1</div>
+          </div>
+          <div class="podium-card champion">
+            <div class="podium-rank">#1</div>
+            <div class="podium-avatar">👑</div>
+            <div class="podium-name">VANGUARD 5</div>
+            <div class="podium-tag">Team Tag: VG5</div>
+            <div class="podium-points">W/L: 5-0</div>
+          </div>
+          <div class="podium-card">
+            <div class="podium-rank">#3</div>
+            <div class="podium-avatar">🛡️</div>
+            <div class="podium-name">Ember Rising</div>
+            <div class="podium-tag">Team Tag: EMBR</div>
+            <div class="podium-points">W/L: 3-1</div>
+          </div>
+        </div>
+        <table class="lb-table reveal">
+          <thead>
+            <tr><th>Rank</th><th>Team Name</th><th>W</th><th>L</th><th>Result</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="rank-cell">#4</td><td class="team-name">Circuit Breakers</td><td>2</td><td>1</td><td class="points-cell">QF</td></tr>
+            <tr><td class="rank-cell">#5</td><td class="team-name">Null Sector</td><td>1</td><td>1</td><td class="points-cell">QF</td></tr>
+            <tr><td class="rank-cell">#6</td><td class="team-name">Apex Protocol</td><td>1</td><td>1</td><td class="points-cell">QF</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="neon-divider" aria-hidden="true"></div>
+
+  <!-- ============================================================
+       FAQ SECTION
+       ============================================================ -->
+  <section id="faq" aria-labelledby="faqHeading">
+    <div class="container">
+
+      <div class="reveal">
+        <div class="section-label">Got Questions?</div>
+        <h2 class="section-heading" id="faqHeading">
+          Frequently <span>Asked</span>
+        </h2>
+        <p class="section-sub">Everything you need to know before joining.</p>
+      </div>
+
+      <div class="faq-grid">
+
+        <!-- Left column FAQs -->
+        <div class="accordion reveal" aria-label="FAQ group 1">
+
+          <div class="accordion-item">
+            <button class="accordion-trigger">
+              <span class="accordion-trigger-text">How do I join a tournament?</span>
+              <span class="accordion-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-body">
+              <div class="accordion-content">
+                Join our Discord, fill the Google Form for your game in the Registration section, and wait for confirmation from our admins. It's that simple.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-trigger">
+              <span class="accordion-trigger-text">Are the tournaments really free to enter?</span>
+              <span class="accordion-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-body">
+              <div class="accordion-content">
+                Yes! All current Nexus BG Season 03 tournaments are free to enter. We run community-first events. Future seasons may introduce optional paid entry for higher prize pools.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-trigger">
+              <span class="accordion-trigger-text">How and when is the Room ID shared?</span>
+              <span class="accordion-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-body">
+              <div class="accordion-content">
+                Room IDs and passwords are posted exclusively in the #room-id channel on our Discord server, 30 minutes before match start time. Make sure your Discord notifications are on!
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-trigger">
+              <span class="accordion-trigger-text">Can I play solo or only in a squad?</span>
+              <span class="accordion-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-body">
+              <div class="accordion-content">
+                Current tournaments run in Squad format (FF/BGMI) and 5v5 team format (Valorant). Solo and Duo events will be introduced in upcoming seasons — follow our Discord for announcements.
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right column FAQs -->
+        <div class="accordion reveal reveal-delay-2" aria-label="FAQ group 2">
+
+          <div class="accordion-item">
+            <button class="accordion-trigger">
+              <span class="accordion-trigger-text">When are results announced?</span>
+              <span class="accordion-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-body">
+              <div class="accordion-content">
+                Results are announced within 2 hours of the final match ending. Final standings are posted in #results on Discord and highlighted on our Instagram.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-trigger">
+              <span class="accordion-trigger-text">What if my registration is not confirmed?</span>
+              <span class="accordion-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-body">
+              <div class="accordion-content">
+                Registration is confirmed via Discord DM within 24 hours. If you haven't received confirmation, open a support ticket in #support with your form reference details.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-trigger">
+              <span class="accordion-trigger-text">Can I replace a player from my squad?</span>
+              <span class="accordion-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-body">
+              <div class="accordion-content">
+                Substitution requests must be submitted at least 12 hours before match start time via the #support channel. No subs are allowed once the custom lobby is live.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-trigger">
+              <span class="accordion-trigger-text">How are prizes transferred?</span>
+              <span class="accordion-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-body">
+              <div class="accordion-content">
+                Prizes are transferred via UPI or bank transfer to the team captain within 3–5 business days after results are finalized. Captain must provide valid UPI ID after winning.
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="neon-divider" aria-hidden="true"></div>
+
+  <!-- ============================================================
+       FOOTER / CONTACT
+       ============================================================ -->
+  <footer id="contact" role="contentinfo">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <!-- Brand -->
+        <div class="footer-brand">
+          <a href="#home" class="nav-logo" aria-label="Nexus Battleground — Back to top">
+            <div class="nav-logo-icon" aria-hidden="true">⚡</div>
+            <span><span class="logo-nx">NEXUS</span> BATTLEGROUND</span>
+          </a>
+          <p class="footer-tagline">India's boldest esports tournament platform. Play hard. Win big. Leave a legacy.</p>
+          <nav class="footer-social" aria-label="Social media links">
+            <!-- EDIT: Replace # with actual social media URLs -->
+            <a href="https://discord.gg/PLACEHOLDER" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Join our Discord server" title="Discord">
+              💬
+            </a>
+            <a href="https://instagram.com/PLACEHOLDER" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Follow us on Instagram" title="Instagram">
+              📸
+            </a>
+            <a href="https://youtube.com/@PLACEHOLDER" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Watch on YouTube" title="YouTube">
+              ▶️
+            </a>
+            <a href="https://twitter.com/PLACEHOLDER" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Follow us on Twitter/X" title="Twitter/X">
+              𝕏
+            </a>
+          </nav>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <div class="footer-col-title">Quick Links</div>
+          <nav class="footer-links" aria-label="Footer navigation">
+            <a href="#home">Home</a>
+            <a href="#games">Games</a>
+            <a href="#tournaments">Tournament Details</a>
+            <a href="#register">Register</a>
+            <a href="#rules">Rules &amp; Guidelines</a>
+            <a href="#leaderboard">Leaderboard</a>
+            <a href="#faq">FAQ</a>
+          </nav>
+        </div>
+
+        <!-- Contact -->
+        <div>
+          <div class="footer-col-title">Contact Us</div>
+          <div class="footer-contact-info">
+            <div class="contact-item">
+              <span aria-hidden="true">📧</span>
+              <!-- EDIT: Replace with actual email -->
+              <div><a href="mailto:admin@nexusbg.gg">admin@nexusbg.gg</a></div>
+            </div>
+            <div class="contact-item">
+              <span aria-hidden="true">💬</span>
+              <!-- EDIT: Replace with actual Discord link -->
+              <div><a href="https://discord.gg/PLACEHOLDER" target="_blank" rel="noopener noreferrer">Discord Support Server</a></div>
+            </div>
+            <div class="contact-item">
+              <span aria-hidden="true">📸</span>
+              <!-- EDIT: Replace with actual Instagram handle -->
+              <div><a href="https://instagram.com/PLACEHOLDER" target="_blank" rel="noopener noreferrer">@nexusbg.gg</a></div>
+            </div>
+            <div class="contact-item">
+              <span aria-hidden="true">⏰</span>
+              <div>Support available 10 AM – 10 PM IST (Mon–Sat)</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom bar -->
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          &copy; 2026 Nexus Battleground. All rights reserved.
+        </div>
+        <div class="footer-made">
+          Built for champions. <span>⚡ Stay Nexus.</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
