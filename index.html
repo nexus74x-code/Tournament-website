@@ -170,7 +170,7 @@
       <div class="games-grid">
 
         <!-- Free Fire Card -->
-        <article class="game-card reveal reveal-delay-1" data-target="ff" role="button" tabindex="0" aria-label="Free Fire — click to view tournament details">
+        <article class="game-card reveal reveal-delay-1" data-target="ff" role="button" tabindex="0" aria-label="Free Fire — click to register for tournament" onclick="window.open('https://forms.gle/m48CKxvaHMowxQsL7','_blank')" style="cursor:pointer;">
           <div class="game-card-img-wrap">
             <img src="assets/images/freefire_card.png" alt="Free Fire — battle royale game art" class="game-card-img" loading="lazy" />
             <div class="game-tag ff">Battle Royale</div>
@@ -183,13 +183,13 @@
                 ₹50,000
                 <small>prize pool</small>
               </div>
-              <button class="btn btn-ghost" style="font-size:0.8rem; padding:8px 16px;">View Details →</button>
+              <a href="https://forms.gle/m48CKxvaHMowxQsL7" target="_blank" rel="noopener noreferrer" class="btn btn-ghost" style="font-size:0.8rem; padding:8px 16px;" id="ffGameCardBtn" aria-label="Register for Free Fire tournament (opens Google Form)">Register Now →</a>
             </div>
           </div>
         </article>
 
         <!-- BGMI Card -->
-        <article class="game-card reveal reveal-delay-2" data-target="bgmi" role="button" tabindex="0" aria-label="BGMI — click to view tournament details">
+        <article class="game-card reveal reveal-delay-2" data-target="bgmi" role="button" tabindex="0" aria-label="BGMI — click to register for tournament" onclick="window.open('https://forms.gle/GQtKWAX7pzL2k8qb8','_blank')" style="cursor:pointer;">
           <div class="game-card-img-wrap">
             <img src="assets/images/bgmi_card.png" alt="BGMI — squad tactical warfare game art" class="game-card-img" loading="lazy" />
             <div class="game-tag bgmi">Squad Tactical</div>
@@ -202,13 +202,13 @@
                 ₹75,000
                 <small>prize pool</small>
               </div>
-              <button class="btn btn-ghost" style="font-size:0.8rem; padding:8px 16px;">View Details →</button>
+              <a href="https://forms.gle/GQtKWAX7pzL2k8qb8" target="_blank" rel="noopener noreferrer" class="btn btn-ghost" style="font-size:0.8rem; padding:8px 16px;" id="bgmiGameCardBtn" aria-label="Register for BGMI tournament (opens Google Form)">Register Now →</a>
             </div>
           </div>
         </article>
 
         <!-- Valorant Card -->
-        <article class="game-card reveal reveal-delay-3" data-target="valo" role="button" tabindex="0" aria-label="Valorant — click to view tournament details">
+        <article class="game-card reveal reveal-delay-3" data-target="valo" role="button" tabindex="0" aria-label="Valorant — click to register for tournament" onclick="window.open('https://forms.gle/AhGy9n7wpJh5FdG36','_blank')" style="cursor:pointer;">
           <div class="game-card-img-wrap">
             <img src="assets/images/valorant_card.png" alt="Valorant — tactical shooter agent art" class="game-card-img" loading="lazy" />
             <div class="game-tag valo">Tactical FPS</div>
@@ -221,7 +221,7 @@
                 ₹25,000
                 <small>prize pool</small>
               </div>
-              <button class="btn btn-ghost" style="font-size:0.8rem; padding:8px 16px;">View Details →</button>
+              <a href="https://forms.gle/AhGy9n7wpJh5FdG36" target="_blank" rel="noopener noreferrer" class="btn btn-ghost" style="font-size:0.8rem; padding:8px 16px;" id="valoGameCardBtn" aria-label="Register for Valorant tournament (opens Google Form)">Register Now →</a>
             </div>
           </div>
         </article>
@@ -555,9 +555,9 @@
             <strong>Slots:</strong> 12 Squads (limited!)<br /><br />
             Registration closes 24 hrs before the tournament. Provide your squad's in-game UIDs on the form.
           </div>
-          <!-- EDIT: Replace PLACEHOLDER-FF with actual Google Form ID -->
+          <!-- Free Fire Registration Google Form -->
           <a
-            href="https://forms.gle/PLACEHOLDER-FF"
+            href="https://forms.gle/m48CKxvaHMowxQsL7"
             target="_blank"
             rel="noopener noreferrer"
             class="btn btn-primary"
@@ -579,9 +579,9 @@
             <strong>Slots:</strong> 16 Squads (limited!)<br /><br />
             Provide all 4 squad members' BGMI IDs. Registration closes 24 hrs before match day.
           </div>
-          <!-- EDIT: Replace PLACEHOLDER-BGMI with actual Google Form ID -->
+          <!-- BGMI Registration Google Form -->
           <a
-            href="https://forms.gle/PLACEHOLDER-BGMI"
+            href="https://forms.gle/GQtKWAX7pzL2k8qb8"
             target="_blank"
             rel="noopener noreferrer"
             class="btn btn-primary"
@@ -603,9 +603,9 @@
             <strong>Slots:</strong> 8 Teams (limited!)<br /><br />
             Provide all 5 Riot IDs. A coach/IGL (6th person) can be listed optionally.
           </div>
-          <!-- EDIT: Replace PLACEHOLDER-VALO with actual Google Form ID -->
+          <!-- Valorant Registration Google Form -->
           <a
-            href="https://forms.gle/PLACEHOLDER-VALO"
+            href="https://forms.gle/AhGy9n7wpJh5FdG36"
             target="_blank"
             rel="noopener noreferrer"
             class="btn btn-primary"
